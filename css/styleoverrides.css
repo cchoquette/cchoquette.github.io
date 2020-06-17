@@ -366,7 +366,7 @@ footer { background-color: #881c1c; border-top: thin solid #881c1c; color: #ccc;
 
 .page-heading { font-size: 20px; }
 
-.contacticon { display: block; font-size: 60px; margin: 10px; }
+.contacticon { display: block; font-size: 30px; margin: 5px; text-align: justify}
 
 .center { text-align: center; }
 
@@ -407,7 +407,7 @@ footer { background-color: #881c1c; border-top: thin solid #881c1c; color: #ccc;
 .news table tr { text-align: left; }
 .news table td { padding: 6px 0; vertical-align: top; border: none; }*/
 
-.social { border-top: 1px solid #e8e8e8; padding-top: 20px; }
+.social { border-top: 1px solid #e8e8e8; padding-top: 10px; }
 
 .pagination { font-size: 1rem; font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif; font-weight: 300; text-align: center; }
 
