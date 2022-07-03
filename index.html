@@ -41,18 +41,17 @@
             <div class="col-md-8">
                 <span class="contacticon center">
                   <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=oDE4I64AAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-                  <a href="data/resume.pdf" target="_blank" title="Resume"><i class="ai ai-cv"></i></a>
+<!--                  <a href="data/resume.pdf" target="_blank" title="Resume"><i class="ai ai-cv"></i></a>-->
                   <a href="http://www.github.com/cchoquette" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
                   <a href="http://www.linkedin.com/in/christopher-choquette-choo/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
                   <a href="https://twitter.com/Chris_Choquette" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
                   <a href="https://medium.com/@choquette.christopher" target="_blank" title="Blog"><i class="fas fa-blog"></i></a>
                 </span>
 
-                <p>I am an AI Resident (2020) at Google. I research model interpretability, federated learning, and differential privacy.</p>
+                <p>I am a researcher in Google Brain, Privacy and Security. My focuses are privacy-preserving and adversarial machine learning. I've worked on privacy auditing techniques, collaborative learning approaches, and methods for ownership-verification.</p>
                 <hr/>
                 <!--              <p>My research interests are at the intersection of security, privacy, and machine learning. If you would like to learn more about my research, I recommend reading the blog posts I co-authored on <a href="https://www.cleverhans.io/" target="_blank">cleverhans.io</a>, for example about <a href="http://www.cleverhans.io/2020/07/20/unlearning.html" target="_blank">machine unlearning</a>, <a href="http://www.cleverhans.io/privacy/2018/04/29/privacy-and-machine-learning.html" target="_blank">differentially private ML</a>, or <a href="http://www.cleverhans.io/security/privacy/ml/2017/02/15/why-attacking-machine-learning-is-easier-than-defending-it.html" target="_blank">adversarial examples</a>.</p>-->
-                <p>Previously, I worked on adversarial machine learning research in the <a href="https://www.papernot.fr/">CleverHans Lab</a> at the Vector Institute. I explored privacy attacks and defenses for machine learning, confidential and private collaborative learning protocols, and protecting machine learning from IP theft.
-                    </p><p>I also worked on <a href="https://arxiv.org/abs/1910.05835">DualDNN</a> while I was at Intel Corp., as well as <a href="https://github.com/tensorflow/privacy/tree/master/tensorflow_privacy/privacy/bolt_on">differential privacy</a> and <a href="https://github.com/georgianpartners/foreshadow">AutoML</a> while I was at <a href="https://georgian.io/">Georgian Partners LP</a>. I graduated with honors from <a href="https://engsci.utoronto.ca/explore_our_program/about_engsci/">Engineering Science</a>, with a major in Robotics, at the University of Toronto, where I had a <b><a href="https://www.schulichleaders.com/christopher-choquette-choo">full scholarship</a></b> for leadership and academic achievement.</p>
+                <p>Previously, I was an AI Resident at Google and a researcher in the <a href="https://www.papernot.fr/">CleverHans Lab</a> at the Vector Institute. I graduated from the University of Toronto, where I had a <b><a href="https://www.schulichleaders.com/christopher-choquette-choo">full scholarship</a></b>.</p>
               <p class="mt-3 mb-0"><strong>Email:</strong> choquette[dot]christopher[at]gmail[dot]com</p>
 <!--                <a href="/cdn-cgi/l/email-protection#5d33343e32313c2e732d3c2d382f3332291d2829322f32332932733e3c"><span class="__cf_email__" data-cfemail="4c22252f23202d3f623c2d3c293e2223380c3938233e23223823622f2d">[email&#160;protected]</span></a>-->
 <!--              <p>-->
@@ -80,10 +79,34 @@
               </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
                 <a href="https://arxiv.org/pdf/2203.03761.pdf">
-                  <papertitle>The Fundamental Price of Secure Aggregation in Differentially Private Federated Learning</papertitle> <!--<a href="https://github.com/cleverhans-lab/capc-iclr" target="_blank" title="GitHub" style='float: right'><i class="fab fa-github"></i></a>-->
+                  <papertitle>The Fundamental Price of Secure Aggregation in Differentially Private Federated Learning</papertitle> <a href="https://github.com/google-research/federated/tree/master/private_linear_compression" target="_blank" title="GitHub" style='float: right'><i class="fab fa-github"></i></a>
                 </a>
                 <br>
                 Wei-Ning Chen*, <b>Christopher A. Choquette-Choo*</b>, Peter Kairouz*, Ananda Theertha Suresh*
+                <em>* Equal contribution. The names are ordered alphabetically.</em>
+                <br>
+                <a href="https://openreview.net/forum?id=NqikEZ6ABea">
+                    <em>International Conference on Machine Learning (ICML)</em>, 2022 </a><span class="badge badge-primary">Conference</span>
+                <br>
+                <em>Theory and Practice of Differential Privacy (TPDP) Workshop</em>, 2022 </a><span class="badge badge-secondary">WorkShop</span>
+                <br>
+
+                <br>
+                <p></p>
+                <p><b>We characterize the fundamental communication costs of Federated Learning (FL) under Secure Aggregation (SecAgg) and Differential Privacy (DP)</b>, two privacy-preserving mechanisms that are commonly used with FL. We prove our optimality for worst-case settings which provides significant improvements over prior work, and show that improvements can be made under additional assumptions, e.g., data sparisty. Extensive empirical evaluations support our claims, showing costs as low as 1.2 bits per parameter on Stack Overflow with <em><4%</em> relative decrease in test-time model accuracy.</p>
+              </td>
+            </tr>
+        <tr>
+            <td style="padding:10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='nightsight_image'><img src='images/cost_comm_efficient.png' width="170%"></div></div>
+              </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://openreview.net/forum?id=NqikEZ6ABea">
+                  <papertitle>Communication Efficient Federated Learning with Secure Aggregation and Differential Privacy</papertitle>
+                </a>
+                <br>
+                Wei-Ning Chen*, <b>Christopher A. Choquette-Choo*</b>, Peter Kairouz*
                 <br>
                 <a href="https://openreview.net/forum?id=NqikEZ6ABea">
                 <em>Privacy in Machine Learning Workshop at Neurips</em>, 2021 </a><span class="badge badge-secondary">WorkShop</span>
@@ -91,7 +114,7 @@
                 <em>* Equal contribution. The names are ordered alphabetically.</em>
                 <br>
                 <p></p>
-                <p><b>We characterize the optimal communication costs of Federated Learning (FL) under Secure Aggregation (SecAgg) and Differential Privacy (DP)</b>, two privacy-preserving mechanisms that are commonly used with FL. We prove our optimality for worst-case settings which provides significant improvements over prior work, and show that improvements can be made under additional assumptions, e.g., data sparisty. Extensive empirical evaluations support our claims, showing costs as low as 1.2 bits per parameter on Stack Overflow with no significant impact to model performance.</p>
+                <p>We show that in the worst-case, differentially-private federated learning with secure aggregation requires <em>Ω(d)</em> bits. Despite this, we discuss how to leverage near-sparsity to compress updates by more than <em>50x</em> with modest noise multipliers of <em>0.4</em> by using sketching.</p>
               </td>
             </tr>
         <tr>
@@ -229,9 +252,9 @@
             <td width="70%" valign="center">
               <b>Privacy Considerations of Production Machine Learning.</b>
               <br>
-              Presented at Ml Ops Worls: New York Area SUmmit
+              Presented at Ml Ops World: New York Area Summit
               <br>
-                Contact me for slides. Unfortunately, the video is not publically available :(.
+                Contact me for slides. Unfortunately, the video is not publicly available :(.
             </td>
           </tr>
 
@@ -259,7 +282,7 @@
 <!--            </div>-->
         </div>
         <h4>Professional Services</h4>
-        <ul><li>Reviewer for 2022 International Conference on Machine Learning (ICML)</li><li>External Reviewer for 2022 USENIX Security Symposium</li><li>External Reviewer for 2022 IEEE Symposium on Security and Privacy</li><li>Reviewer for 2021 Journal of Machine Learning Research</li><li>External Reviewer for 2021 International Conference on Machine Learning (ICML)</li><li>External Reviewer for 2021 USENIX Security Symposium</li><li>External Reviewer for 2021 IEEE Symposium on Security and Privacy</li> <li>Reviewer for the 2020 Machine Learning for the Developing World (ML4D) workshop at NeurIPS</li></ul>
+        <ul><li>Reviewer for Nature Machine Intelligence Journal</li><li>Reviewer for 2022 International Conference on Machine Learning (ICML)</li><li>Reviewer for 2022 IEEE Transactions on Emerging Topics in Computing</li><li>External Reviewer for 2022 USENIX Security Symposium</li><li>External Reviewer for 2022 IEEE Symposium on Security and Privacy</li><li>Reviewer for 2021 Journal of Machine Learning Research</li><li>External Reviewer for 2021 International Conference on Machine Learning (ICML)</li><li>External Reviewer for 2021 USENIX Security Symposium</li><li>External Reviewer for 2021 IEEE Symposium on Security and Privacy</li> <li>Reviewer for the 2020 Machine Learning for the Developing World (ML4D) workshop at NeurIPS</li></ul>
       </div> <!-- /container -->
     </div> <!-- /jumbotron -->
     </main>
