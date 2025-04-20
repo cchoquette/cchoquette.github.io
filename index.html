@@ -48,11 +48,11 @@
                   <a href="bio.txt" target="_blank" title="Bio"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
                 </span>
 
-                <p>I am a Research Scientist in Google Deepmind, on the DeepMind Privacy and Security team working on fundamental and applied research. I lead privacy and security evals, among other contributions, for our frontier model efforts, including Gemini (+1.5,+2.5), Gemma (+CodeGemma,+2,+3), Mariner, PaLM 2, and GBoard. My work has ensured we meet compliance anad have secure models, enabling and unblocking (trustworthy) model releases.
+                <p>I am a Research Scientist in Google Deepmind, on the Privacy and Security Research team working on fundamental and applied research. I lead privacy and security evals, among other contributions, for our frontier model efforts, including Gemini (+1.5,+2.5), Gemma (+CodeGemma,+2,+3), Mariner, PaLM 2, and GBoard. My work has ensured we meet compliance and have secure models, enabling and unblocking (trustworthy) model releases.
                 <hr/>
                 <!--              <p>My research interests are at the intersection of security, privacy, and machine learning. If you would like to learn more about my research, I recommend reading the blog posts I co-authored on <a href="https://www.cleverhans.io/" target="_blank">cleverhans.io</a>, for example about <a href="http://www.cleverhans.io/2020/07/20/unlearning.html" target="_blank">machine unlearning</a>, <a href="http://www.cleverhans.io/privacy/2018/04/29/privacy-and-machine-learning.html" target="_blank">differentially private ML</a>, or <a href="http://www.cleverhans.io/security/privacy/ml/2017/02/15/why-attacking-machine-learning-is-easier-than-defending-it.html" target="_blank">adversarial examples</a>.</p>-->
                 <p>Previously, I was an AI Resident at Google and a researcher in the <a href="https://www.papernot.fr/">CleverHans Lab</a> at the Vector Institute. I graduated from the University of Toronto, where I had a <b><a href="https://www.schulichleaders.com/christopher-choquette-choo">full scholarship</a></b>.</p>
-              <p class="mt-3 mb-0"><strong>Email:</strong> choquette[dot]christopher[at]gmail[dot]com</p>
+              <p class="mt-3 mb-0"><strong>Email:</strong> choquette[dot]christopher[at]gmail[dot]com</p>;[c][choquette][at][employer][dot]com
 <!--                <a href="/cdn-cgi/l/email-protection#5d33343e32313c2e732d3c2d382f3332291d2829322f32332932733e3c"><span class="__cf_email__" data-cfemail="4c22252f23202d3f623c2d3c293e2223380c3938233e23223823622f2d">[email&#160;protected]</span></a>-->
 <!--              <p>-->
 <!--                <a class="btn btn-info" href="https://papernot.fr/papernot_cv.pdf" target="_blank" role="button">CV &raquo;</a>&nbsp;-->
@@ -69,8 +69,8 @@
 
        <h4>Research</h4>
 
-        <p>My focuses are privacy-preserving and adversarial machine learning. I mainly work on studying memorization, privacy, and security harms in language modelling; but,
-           I've also worked on DP training algorithms, privacy auditing techniques, collaborative learning approaches, and methods for ownership-verification.</p> See my <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=oDE4I64AAAAJ" target="_blank" title="Google Scholar">google scholar</a> for an up-to-date list.</p>
+        <p>My focuses are privacy-preserving and adversarial machine learning. I mainly work on studying memorization, privacy, and security harms in language modelling, including auditing for risks and mitigating them. But,
+           I've also worked on DP training algorithms, unlearning, collaborative learning approaches, and methods for ownership-verification.</p> See my <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=oDE4I64AAAAJ" target="_blank" title="Google Scholar">google scholar</a> for an up-to-date list.</p>
 
         <table class="table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
@@ -107,14 +107,27 @@
         <tr>
 
             <td colspan="2" style="padding:10px;width:75%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2410.06266">
-                    <papertitle>Near Exact Privacy Amplification for Matrix Mechanisms</papertitle></a>
+                <a href="https://arxiv.org/abs/2503.17514">
+                    <papertitle>Language Models May Verbatim Complete Text They Were Not Explicitly Trained On</papertitle></a>
                 <br>
-                <b>Christopher A. Choquette-Choo</b>, Arun Ganesh, Saminul Haque, Thomas Steinke, Abhradeep Thakurta
+                Ken Liu, <b>Christopher A. Choquette-Choo</b>*, Matthew Jagielski*, Peter Kairouz, Sanmi Koyejo, Nicolas Papernot, Percy Liang
+                <br>
+                    <em>The Thirteenth International Conference on Learning Representations (ICLR)</em>, 2025 <span class="badge badge-primary">conference</span>
+                    <em>* Equal contribution. The names are ordered randomly.</em>
+                <p></p>
+                <p><b>Not all data that is verbatim complete is also memorized.</b></p>
+              </td>
+            </tr>
+        <tr>
+            <td colspan="2" style="padding:10px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2503.06808">
+                    <papertitle>Privacy Auditing of Large Language Models</papertitle></a>
+                <br>
+                Ashwinee Panda, Xinyu Tang, Milad Nasr, <b>Christopher A. Choquette-Choo</b>, Prateek Mittal
                 <br>
                     <em>The Thirteenth International Conference on Learning Representations (ICLR)</em>, 2025 <span class="badge badge-primary">conference</span>
                 <p></p>
-                <p><b>Better amplification for DP-FTRL with "balls-and-bins" sampling.</b></p>
+                <p><b>The first good privacy audits of language models</b> via strong membership inference attacks on canaries.</p>
               </td>
             </tr>
         <tr>
@@ -131,12 +144,24 @@
             </tr>
         <tr>
             <td colspan="2" style="padding:10px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2410.06266">
+                    <papertitle>Near Exact Privacy Amplification for Matrix Mechanisms</papertitle></a>
+                <br>
+                <b>Christopher A. Choquette-Choo</b>, Arun Ganesh, Saminul Haque, Thomas Steinke, Abhradeep Thakurta
+                <br>
+                    <em>The Thirteenth International Conference on Learning Representations (ICLR)</em>, 2025 <span class="badge badge-primary">conference</span>
+                <p></p>
+                <p><b>Better amplification for DP-FTRL with "balls-and-bins" sampling.</b></p>
+              </td>
+            </tr>
+        <tr>
+            <td colspan="2" style="padding:10px;width:75%;vertical-align:middle">
                 <a href="https://arxiv.org/abs/2501.07493">
                     <papertitle>Exploring and Mitigating Adversarial Manipulation of Voting-Based Leaderboards</papertitle></a>
                 <br>
                 Yangsibo Huang, Milad Nasr, Anastasios Angelopoulos, Nicholas Carlini, Wei-Lin Chiang, <b>Christopher A. Choquette-Choo</b>, Daphne Ippolito, Matthew Jagielski, Katherine Lee, Ken Ziyu Liu, Ion Stoica, Florian Tramer, Chiyuan Zhang
                 <br>
-                    <em>International Conference on Learning Representations (ICLR)</em>, 2024<span class="badge badge-primary">conference</span>
+                    <em>International Conference on Learning Representations (ICLR)</em>, 2025<span class="badge badge-primary">conference</span>
                 <p></p>
                 <p><b>We show voting-based leaderboards require security mitigations to be trustworthy.</b></p>
               </td>
@@ -232,7 +257,7 @@
           <tr>
             <td colspan="2" style="padding:10px;width:75%;vertical-align:middle">
                 <a href="https://arxiv.org/abs/2406.02716">
-                    <papertitle>Optimal Rates for DP-SCO with a Single Epoch and Large Batches</papertitle></a>
+                    <papertitle>Optimal Rates for DP-SCO with a Single Epoch and Large Batchefrivacy as</papertitle></a>
                 <br>
                 <b>Christopher A. Choquette-Choo</b>, Arun Ganesh, Abhradeep Thakurta
                 <br>
