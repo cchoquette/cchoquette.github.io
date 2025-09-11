@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>A new an era. — Christopher A. Choquette-Choo</title>
+  <meta name="description" content="Reflections on Brain Privacy & Security (BPS) and an announcement about joining the Alignment team at OpenAI." />
+  <link rel="canonical" href="https://www.christopherchoquette.com/blogs/2025-09-07-a_new_era.html" />
+
+  <!-- Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="A new era. The end of an era. The start of a new one." />
+  <meta property="og:description" content="Reflections on BPS and joining the Alignment team at OpenAI." />
+  <meta property="og:url" content="https://example.com/blog/leaving-bps-joining-openai.html" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="A new era. The end of an era. The start of a new one.." />
+  <meta name="twitter:description" content="Reflections on BPS and joining the Alignment team at OpenAI." />
+
+  <style>
+    /* Softer, lower-contrast palette */
+    :root{
+      --bg:#DADCE0;      /* off-white */
+      --fg:#111213;      /* off-black */
+      --muted:#6c6c6a;
+      --link:#0b57d0;
+      --border:#e3e3e0;
+    }
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg:#111213;    /* near-black */
+        --fg:#DADCE0;    /* off-white */
+        --muted:#a8a8a4;
+        --link:#8ab4f8;
+        --border:#262728;
+      }
+    }
+
+    html,body{
+      margin:0; padding:0;
+      background:var(--bg); color:var(--fg);
+      font-family: "Roboto", system-ui, -apple-system, Segoe UI, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size:16px; line-height:1.7;
+      text-rendering:optimizeLegibility;
+    }
+    .wrap{ max-width: 780px; margin:0 auto; padding:48px 20px 80px; }
+
+    header.page{
+      text-align:left; margin-bottom:28px; padding-bottom:18px;
+      border-bottom:1px solid var(--border);
+    }
+    .title{
+      margin:0;
+      font-weight:700;
+      letter-spacing:-0.01em;
+      font-size: clamp(2.1rem, 5vw, 3rem);
+      line-height:1.15;
+    }
+    .subtitle{
+      margin:8px 0 0 0;
+      font-weight:500;
+      color:var(--muted);
+      font-size: clamp(1.35rem, 3vw, 1.9rem);
+      line-height:1.2;
+    }
+    .meta{
+      margin-top:14px;
+      color:var(--muted);
+      font-size:0.95rem;
+      display:flex; gap:10px; align-items:center; flex-wrap:wrap;
+    }
+
+    article{ margin-top:20px; }
+    article p{ margin:1em 0; font-size:1.05rem; }
+    .keypoints{ margin:0.75em 0 1.25em 1.25em; }
+    .keypoints li{ margin:0.45em 0; }
+    .keypoints li strong{ font-weight:700; }
+
+    h2.section{
+      margin:1.8em 0 0.3em;
+      font-size: clamp(1.5rem, 3.2vw, 2rem);
+      line-height:1.25; letter-spacing:-0.01em;
+    }
+
+    a{ color:var(--link); text-decoration:none; }
+    a:hover, a:focus{ text-decoration:underline; }
+
+    footer{
+      margin-top:40px; padding-top:16px;
+      border-top:1px solid var(--border);
+      color:var(--muted); font-size:0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="page" role="banner">
+      <h1 class="title">A new era.</h1>
+      <div class="subtitle">The end of an era. The start of a new one.</div>
+      <div class="meta">
+        <time datetime="2025-09-06">September 6, 2025</time>
+        <span aria-hidden="true">•</span>
+        <span>~3 min read</span>
+      </div>
+    </header>
+
+    <article role="article">
+      <p>“BPS”, Brain Privacy &amp; Security, was a legendary team. This team had a pervasive impact on machine learning, privacy, and security research. Its members contributed seminal research in many now well-known topics. To name just a few that stick out for me:</p>
+
+      <ul class="keypoints">
+        <li><strong>Adversarial examples</strong>, the famous attack making supervised models predict a panda as a gibbon (and, I still don’t quite know what a gibbon is, only that it is in fact not a panda), were jointly discovered by early members, and then the team (Nicholas Carlini) continued to show the community how <em>not</em> to make models robust.</li>
+        <li><strong>Differentially private machine learning</strong>, where early members co-invented DP-SGD and PATE, and then the group later continued to innovate in this space by co-inventing DP-FTRL.</li>
+        <li><strong>Memorization and training data extraction</strong>, which the group first co-exposed as a concern for large language models and have continued to make significant advancements by improving our understanding and measurement of this phenomenon; this is now being hotly debated in many other communities.</li>
+        <li><strong>Privacy auditing and membership inference</strong>, where the team made significant contributions in numerous important works, and several solutions within Google were co-led by this team.</li>
+        <li><strong>And other topics</strong>, including poisoning, model extraction, unlearning, etc., were influenced by important works contributed by the group.</li>
+      </ul>
+
+      <p>When I was graduating, it was clearly one of the best places to be if you wanted to work at the forefront of this research area, while also being afforded the many benefits of being in a frontier industry research lab. Recently, many of my colleagues who made the team so special have moved on to new teams. And now, it is time for me to do the same.</p>
+
+      <p><strong>A brief background</strong> for those who don't know me. I'm a research scientist focused on the intersection of privacy and security with machine learning. I've worked on unlearning, differential privacy, privacy audits, collaborative learning, ownership resolution, jailbreaks, and prompt injections, to name a few topics. I've led several important projects for our frontier models (Gemini, Gemma, …), including evaluations and mitigations for privacy and security.</p>
+
+      <p>I was at Google for nearly 5 years. I first joined as an AI resident in Google Research, and then I joined BPS right after. Back in 2023, Google Brain was famously merged into Google DeepMind.</p>
+
+      <h2 class="section" id="a-new-era">A new era.</h2>
+
+      <p>I'm sad to be leaving a team of excellent researchers and great friends. At the same time, I’m really excited to be joining the Alignment team at OpenAI. I'm looking forward to a new adventure where I’ll be working with some of the best minds in this space and can explore a different environment with new people, perspectives, and focuses. I'm excited to push the frontiers of model/system robustness and to improve alignment, security, and privacy broadly at OpenAI. Hopefully, I'll be able to share what we're cooking soon!</p>
+    </article>
+
+    <footer>
+      <div>© <span id="y">2025</span> Christopher A. Choquette-Choo</div>
+      <div>
+        <!-- Replace with your actual homepage URL -->
+        <a href="https://www.christopherchoquette.com/" rel="home">← Back to home</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
